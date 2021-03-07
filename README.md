@@ -14,7 +14,8 @@ I decided to choose an interesting and unique project called “Portland Protest
 <div style="display: flex; align-items: center; justify-content: center;">
   <img style="height: 300px; margin-bottom: 10px;" src="img/overviewvideo.png">
 </div>
-<p style="text-align:center;"> Capture the video of what the project would look like </p>
+
+***Caption: capture the video of what the project would look like***
 
 The project was made by SITU along with the collaborators from Don’t Shoot Portland, Oregon Justice Resource Center, Levi Merrihew Horst, and Albies & Stark. The SITU was being commissioned by those collaborators to make cloud point analysis to provide context to the court. There was a lawsuit against Portland police for being accountable for using tear gas and weapons. As the research was published after the court case was dismissed, the audience can be anyone who comes across this project. This project can be good for non-American or non-Portland residents to “visually” read and learn about the incident. This project could also target people who seek social justice and want to spread out awareness of the problem. It also could be someone who wants to learn what point cloud analysis can be used for.
 
