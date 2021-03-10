@@ -11,9 +11,7 @@ ___________________________________________
 
 I decided to choose an interesting and unique project called “Portland Protest Reconstruction” and it is published by SITU Research. In short, SITU is an institution that focuses on unconventional architectural practices for social impact and racial injustice. For this project, it was made geo-narrative to reexplain what happened during the Portland Protest. More specifically, SITU wants to recreate the context of the police’s unfair use of weapons against harmless protesters. During that time, there was racial injustice when the police killed George Floyd and the reaction caused many uproars from the public. Many people who had participated in the Black Lives Matter, especially protests, for letting the voice be heard for stopping the police power on the Black community and also to stop the racial system. Portland Protest was brought to all attention due to the Portland police for violating the restrictions on the use of “less-lethal” weapons.
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img style="height: 300px; margin-bottom: 10px;" src="img/overviewvideo.png">
-</div>
+![Website overview](img/overviewvideo.png)
 
 ***Caption: capture the video of what the project would look like***
 
@@ -23,17 +21,18 @@ What is interesting about this project is that unlike displaying a dashboard or 
 
 As far as I assumed, the data source was mostly images and media, unlike data numbers, or data table format. They used drone photogrammetry and laser scans to capture point cloud models. The area they were trying to reconstruct was the street of North Lombard Street, a street as the epicenter of the night’s violence.  They also used short videos from social media and people who had been recording during that incident. They use those clips to match the spatial view with the 3-D model and are also credited to the owners of the clips.
 
+![code snippet](img/codesnippet.png)
+***Caption: One of the image with HTML code***
+
 ### Describe the systematic architecture
 
-<img style="float: left; height: 250px; margin-right: 20px; margin-bottom: 20px;" src="img/pointcloudmodel.png">
+![point cloud model](img/pointcloudmodel.png)
 
 Since SITU created a website as an article format, this might be the client-side. Readers like me can only see the videos and words. I don’t see the server, services, or data clearly on this website; but, I believe what the articles explain could give us some insight into the process they did. Most of the data are from the drone that captures images and also there are short videos from the people being recorded during the protest. The server and services could be SITU using the software that generates the drone photos into point cloud models. They could also be using other services to help layout the video clips to match the shape of the models. With how the data flowed in between the client and server, they might have processed the data from software and then placed those data into HTML and assets folders. I had noticed that HTML files have a bunch of images tag that show the 3-D models, so I am assuming that they were not doing a full-stack website that has the back-end delivering the data to the front-end. As I open the inspector on this site, I can see that some CSS and JS files were made although it is hard to read the code. As for the major functions of this systemic architecture, the website provides four-minute videos to allow readers to see everything. I can simply press the play button as a normal video. Another function is that for images or short loop videos, my regular computer arrow changes into the big black “plus” sign as I hover them. I can click them and it will enlarge the image bigger, isolating it from the rest. There was a small caption below the enlarged image. Also, I could use their left/right arrow to change to different images, and there is a big “X” sign to exit out.
 
 ### Critique its overall UI/UX and Web Mapping design
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img style="height: 300px; margin-bottom: 20px;" src="img/map.png">
-</div>
+![map](img/map.png)
 
 As for the UI/UX, I would say that the video and the loop clips did a good job of grabbing the attention, and I would already forget that this project doesn’t have a typical dashboard or map interaction. The project has a website that acts as an article, and it is easy to follow along. From reading top to bottom, there was no confusion or any missing information for me. The amount of wording and images are evenly distributed, as I don’t get distracted easily from reading words too much and images are evenly spread out. I think it is a great idea how SITU puts the video before everything because it can be helpful for readers who prefer to watch rather than reading everything. Once again, the project doesn’t support responsive design as there aren’t any interactions to play with. The project also doesn't have an interactive map design; although, there is only one map that you can watch on. That map only has a base map (or a thematic map) with bright and dark contrast to display the difference between the land and buildings/trees. It has a timeline in hour and minute units as to how the map would change over time. There were two arrows, one for police and another for protesters. The only moving right or left as to symbolizes their movement over time. Lastly, there would be dots that represent the major incidents occurring during a certain time. Once again, this mapping doesn’t have map interaction as it is a clip; I can only click on it to enlarge the image.
 
@@ -41,9 +40,7 @@ As for the UI/UX, I would say that the video and the loop clips did a good job o
 
 The pros of the project are very creative. It doesn’t show how you would normally interact with the map; yet, you would still be able to understand the story. It is also very simple to use and you wouldn’t feel overwhelmed with too many mapping elements. The reading is also very engaging because the explanation was straightforward and short. The cons would be the limitation of the user interaction. As I said before, the project felt like an article since there were just words and images. Sometimes, I want to go try and play around with the model so my suggestion is to create an external site where users can have more freedom to look around. Users would be able to choose to move the view and observe differently at certain incidents. I could say the same thing for the map. My suggestion is to allow users to control and pause the animation, which can allow developers to get more creative on the map to display (like a pop-up on the incident dot). Overall, I really like how this project displays because you can get to see more information on the third dimension than the second dimension. It is really clever to use point cloud and scanning tools to capture a grenade very clearly as proof of the police's misuse of weapons. This is something that I can imagine using as a “3-D video” proof in the future for the court or evidence.
 
-<div style="display: flex; align-items: center; justify-content: center;">
-  <img style="height: 300px; margin-bottom: 10px;" src="img/weaponuses.png">
-</div>
+![Police Weapon Uses](img/weaponuses.png)
 
 ### Reflect upon this project with the references of the readings
 
